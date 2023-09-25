@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuicidalrNot</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SuicidalrNot</h1>
+    </header>
+    <main>
+        <form method="POST" action="/">
+            <label for="text">Enter text:</label>
+            <textarea id="text" name="text" rows="4" cols="50" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        {% if prediction %}
+            <h2>Prediction:</h2>
+            <p>{{ prediction }}</p>
+        {% endif %}
+    </main>
+</body>
+</html>
