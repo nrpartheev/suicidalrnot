@@ -13,7 +13,7 @@ The dataset which we used for training the model was from kaggle and the links f
 
 ## 🤖 Model training..
 
-We knew that our project will be as good as our model is. So, it was really important to use a well defined model. We started looking for model which worked well on text data like LSTM, Bidirectional LSTM but there were already a lot of project done by using those models. So, we though of using **transformer networks** for the training and we found **BERT** interesting as it is little and can be fine tunned easily for classification problems....
+We knew that our project will be as good as our model is. So, it was really important to use a well defined model. We started looking for model which worked well on text data like LSTM, Bidirectional LSTM but there were already a lot of project done by using those models. So, we though of using **transformer networks** for the training and we found **GPT2** interesting as it is little and can be fine tunned easily for classification problems....
 
 ## 💻 Final System
 
